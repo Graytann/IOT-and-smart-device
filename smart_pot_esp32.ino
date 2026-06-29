@@ -8,11 +8,11 @@
   #include <ArduinoJson.h>
 
   // ── WiFi ─────────────────────────────────────────────────────────────────────
-  const char* WIFI_SSID     = "DESKTOP-DIICEH7 3913";
-  const char* WIFI_PASSWORD = "40*791Ea";
+  const char* WIFI_SSID     = "wifi";
+  const char* WIFI_PASSWORD = "wifi-password";
 
   // ── Server ───────────────────────────────────────────────────────────────  x────
-  const char* SERVER_URL = "http://192.168.137.1:5000/predict";
+  const char* SERVER_URL = "http://ur-ip/predict";
 
   // ── Pin & threshold ──────────────────────────────────────────────────────────
   constexpr int  SENSOR_PIN        = 34;
